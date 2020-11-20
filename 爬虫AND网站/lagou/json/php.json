@@ -1,0 +1,238 @@
+{
+	"geo":[
+	 	{
+	        "name" : "北京",
+	        "value" : 847.0
+	    },
+	    {
+	        "name" : "上海",
+	        "value" : 1198.0
+	    },
+	    {
+	        "name" : "广东",
+	        "value" : 1860.0
+	    },
+	    {
+	        "name" : "四川",
+	        "value" : 10.0
+	    },
+	    {
+	        "name" : "浙江",
+	        "value" : 660.0
+	    },
+        {"name": "天津","value": 0 },
+        {"name": "重庆","value": 55 },
+        {"name": "河北","value": 23},
+        {"name": "河南","value": 20 },
+        {"name": "云南","value": 19 },
+        {"name": "辽宁","value": 20 },
+        {"name": "黑龙江","value": 25 },
+        {"name": "湖南","value":17 },
+        {"name": "安徽","value": 330},
+        {"name": "山东","value": 19 },
+        {"name": "新疆","value": 0 },
+        {"name": "江苏","value": 20 },
+        {"name": "江西","value":20 },
+        {"name": "湖北","value": 20 },
+        {"name": "广西","value":0 },
+        {"name": "甘肃","value": 2 },
+        {"name": "山西","value": 17 },
+        {"name": "内蒙古","value": 0 },
+        {"name": "陕西","value": 0 },
+        {"name": "吉林","value": 10 },
+        {"name": "福建","value": 20 },
+        {"name": "贵州","value":10 },
+        {"name": "广东","value": 19 },
+        {"name": "青海","value": 0 },
+        {"name": "西藏","value": 0 },
+        {"name": "宁夏","value": 10 },
+        {"name": "海南","value": 0 },
+        {"name": "台湾","value": 0 },
+        {"name": "香港","value": 0 },
+        {"name": "澳门","value":0 }
+	],
+	"related":{
+	"nodes":[
+	{"label":"视频","id":"视频","size":"330"},
+{"label":"linux","id":"linux","size":"330"},
+{"label":"电商","id":"电商","size":"980"},
+{"label":"系统架构","id":"系统架构","size":"330"},
+{"label":"redis","id":"redis","size":"605"},
+{"label":"ThinkPHP","id":"ThinkPHP","size":"1037"},
+{"label":"阅读","id":"阅读","size":"330"},
+{"label":"广告营销","id":"广告营销","size":"650"},
+{"label":"Java","id":"Java","size":"780"},
+{"label":"MySQL","id":"MySQL","size":"1422"},
+{"label":"web","id":"web","size":"483"},
+{"label":"旅游","id":"旅游","size":"330"},
+{"label":"游戏","id":"游戏","size":"330"},
+{"label":"高级","id":"高级","size":"605"},
+{"label":"后端","id":"后端","size":"538"},
+{"label":"直播","id":"直播","size":"330"},
+{"label":"后端开发","id":"后端开发","size":"395"},
+{"label":"游戏开发","id":"游戏开发","size":"330"},
+{"label":"架构","id":"架构","size":"330"},
+{"label":"软件开发","id":"软件开发","size":"330"},
+{"label":"系统集成","id":"系统集成","size":"330"},
+{"label":"支付","id":"支付","size":"320"},
+{"label":"项目管理","id":"项目管理","size":"330"},
+{"label":"资深","id":"资深","size":"275"},
+{"label":"中级","id":"中级","size":"275"},
+{"label":"信息安全","id":"信息安全","size":"208"},
+{"label":"初级","id":"初级","size":"273"},
+{"label":"Python","id":"Python","size":"65"},
+{"label":"金融","id":"金融","size":"10"},
+{"label":"python","id":"python","size":"10"}
+
+	],
+
+"edges":
+[
+    {
+        "sourceID" : "视频",
+        "targetID" : "linux",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "系统架构",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "系统架构",
+        "targetID" : "redis",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "ThinkPHP",
+        "targetID" : "阅读",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "redis",
+        "targetID" : "ThinkPHP",
+        "size" : 605.0
+    },
+    {
+        "sourceID" : "广告营销",
+        "targetID" : "Java",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "Java",
+        "targetID" : "MySQL",
+        "size" : 660.0
+    },
+    {
+        "sourceID" : "旅游",
+        "targetID" : "游戏",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "游戏",
+        "targetID" : "高级",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "MySQL",
+        "targetID" : "后端",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "高级",
+        "targetID" : "MySQL",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "直播",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "后端开发",
+        "targetID" : "游戏开发",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "MySQL",
+        "targetID" : "架构",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "软件开发",
+        "targetID" : "系统集成",
+        "size" : 330.0
+    },
+    {
+        "sourceID" : "支付",
+        "targetID" : "电商",
+        "size" : 320.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "广告营销",
+        "size" : 320.0
+    },
+    {
+        "sourceID" : "MySQL",
+        "targetID" : "ThinkPHP",
+        "size" : 432.0
+    },
+    {
+        "sourceID" : "广告营销",
+        "targetID" : "MySQL",
+        "size" : 320.0
+    },
+    {
+        "sourceID" : "资深",
+        "targetID" : "高级",
+        "size" : 275.0
+    },
+    {
+        "sourceID" : "高级",
+        "targetID" : "中级",
+        "size" : 275.0
+    },
+    {
+        "sourceID" : "中级",
+        "targetID" : "redis",
+        "size" : 275.0
+    },
+    {
+        "sourceID" : "信息安全",
+        "targetID" : "初级",
+        "size" : 208.0
+    },
+    {
+        "sourceID" : "初级",
+        "targetID" : "web",
+        "size" : 208.0
+    },
+    {
+        "sourceID" : "web",
+        "targetID" : "后端",
+        "size" : 208.0
+    },
+    {
+        "sourceID" : "初级",
+        "targetID" : "后端开发",
+        "size" : 65.0
+    },
+    {
+        "sourceID" : "后端开发",
+        "targetID" : "Java",
+        "size" : 65.0
+    },
+    {
+        "sourceID" : "Java",
+        "targetID" : "Python",
+        "size" : 65.0
+    },
+    {
+        "sourceID" : "金融",
+        "targetID" : "python",
+        "size" : 10.0
+    }
+]
+}
+}

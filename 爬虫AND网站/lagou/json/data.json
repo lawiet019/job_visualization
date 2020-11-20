@@ -1,0 +1,226 @@
+{
+	"geo":[
+	 {
+	        "name" : "北京",
+	        "value" : 3599.0
+	    },
+	    {
+	        "name" : "上海",
+	        "value" : 1710.0
+	    },
+	    {
+	        "name" : "广东",
+	        "value" : 1442.0
+	    },
+	    {
+	        "name" : "四川",
+	        "value" : 570.0
+	    },
+	    {
+	        "name" : "浙江",
+	        "value" : 10.0
+	    },
+        {"name": "天津","value": 0 },
+        {"name": "重庆","value": 55 },
+        {"name": "河北","value": 23},
+        {"name": "河南","value": 20 },
+        {"name": "云南","value": 19 },
+        {"name": "辽宁","value": 20 },
+        {"name": "黑龙江","value": 25 },
+        {"name": "湖南","value":17 },
+        {"name": "安徽","value": 0},
+        {"name": "山东","value": 19 },
+        {"name": "新疆","value": 0 },
+        {"name": "江苏","value": 20 },
+        {"name": "江西","value":20 },
+        {"name": "湖北","value": 20 },
+        {"name": "广西","value":0 },
+        {"name": "甘肃","value": 2 },
+        {"name": "山西","value": 17 },
+        {"name": "内蒙古","value": 0 },
+        {"name": "陕西","value": 0 },
+        {"name": "吉林","value": 10 },
+        {"name": "福建","value": 1140 },
+        {"name": "贵州","value":10 },
+        {"name": "广东","value": 19 },
+        {"name": "青海","value": 0 },
+        {"name": "西藏","value": 0 },
+        {"name": "宁夏","value": 10 },
+        {"name": "海南","value": 0 },
+        {"name": "台湾","value": 0 },
+        {"name": "香港","value": 0 },
+        {"name": "澳门","value":0 }
+	],
+	"related":{
+	"nodes":[
+        {"label":"电商","id":"电商","size":"570"},
+{"label":"大数据","id":"大数据","size":"2850"},
+{"label":"电子商务","id":"电子商务","size":"570"},
+{"label":"统计","id":"统计","size":"1140"},
+{"label":"SPSS","id":"SPSS","size":"570"},
+{"label":"数据管理","id":"数据管理","size":"2280"},
+{"label":"didi","id":"didi","size":"570"},
+{"label":"深度学习","id":"深度学习","size":"570"},
+{"label":"数据挖掘","id":"数据挖掘","size":"1710"},
+{"label":"数据分析","id":"数据分析","size":"2850"},
+{"label":"助理","id":"助理","size":"570"},
+{"label":"实习生","id":"实习生","size":"570"},
+{"label":"金融","id":"金融","size":"570"},
+{"label":"医疗健康","id":"医疗健康","size":"570"},
+{"label":"房产服务","id":"房产服务","size":"570"},
+{"label":"产品","id":"产品","size":"570"},
+{"label":"运营","id":"运营","size":"1140"},
+{"label":"内容","id":"内容","size":"570"},
+{"label":"BI","id":"BI","size":"570"},
+{"label":"可视化","id":"可视化","size":"570"},
+{"label":"web","id":"web","size":"570"},
+{"label":"HTML","id":"HTML","size":"570"},
+{"label":"汽车","id":"汽车","size":"570"},
+{"label":"MySQL","id":"MySQL","size":"961"},
+{"label":"用户研究","id":"用户研究","size":"749"},
+{"label":"爬虫","id":"爬虫","size":"391"}
+	],
+
+"edges":[
+
+    {
+        "sourceID" : "电商",
+        "targetID" : "大数据",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "大数据",
+        "targetID" : "电子商务",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "统计",
+        "targetID" : "SPSS",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "SPSS",
+        "targetID" : "数据管理",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "电子商务",
+        "targetID" : "统计",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "深度学习",
+        "targetID" : "数据挖掘",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "数据分析",
+        "targetID" : "助理",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "助理",
+        "targetID" : "实习生",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "金融",
+        "targetID" : "大数据",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "大数据",
+        "targetID" : "医疗健康",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "房产服务",
+        "targetID" : "产品",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "产品",
+        "targetID" : "大数据",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "大数据",
+        "targetID" : "数据分析",
+        "size" : 1140.0
+    },
+    {
+        "sourceID" : "运营",
+        "targetID" : "内容",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "内容",
+        "targetID" : "数据分析",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "统计",
+        "targetID" : "数据管理",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "数据分析",
+        "targetID" : "统计",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "BI",
+        "targetID" : "可视化",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "可视化",
+        "targetID" : "web",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "web",
+        "targetID" : "HTML",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "汽车",
+        "targetID" : "运营",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "运营",
+        "targetID" : "数据分析",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "数据分析",
+        "targetID" : "数据管理",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "大数据",
+        "targetID" : "MySQL",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "数据分析",
+        "targetID" : "数据挖掘",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "数据挖掘",
+        "targetID" : "数据管理",
+        "size" : 570.0
+    },
+    {
+        "sourceID" : "MySQL",
+        "targetID" : "爬虫",
+        "size" : 391.0
+    }
+
+	
+
+]
+}
+}

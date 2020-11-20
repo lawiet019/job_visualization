@@ -1,0 +1,146 @@
+{
+	"geo":[
+	 	{
+	        "name" : "北京",
+	        "value" : 3084.0
+	    },
+	    {
+	        "name" : "上海",
+	        "value" : 3084.0
+	    },
+	    {
+	        "name" : "广东",
+	        "value" : 1251.0
+	    },
+	    {
+	        "name" : "四川",
+	        "value" : 2056.0
+	    },
+	    {
+	        "name" : "浙江",
+	        "value" : 3990.0
+	    },
+        {"name": "天津","value": 0 },
+        {"name": "重庆","value": 55 },
+        {"name": "河北","value": 23},
+        {"name": "河南","value": 20 },
+        {"name": "云南","value": 19 },
+        {"name": "辽宁","value": 20 },
+        {"name": "黑龙江","value": 25 },
+        {"name": "湖南","value":17 },
+        {"name": "安徽","value": 330},
+        {"name": "山东","value": 19 },
+        {"name": "新疆","value": 0 },
+        {"name": "江苏","value": 927 },
+        {"name": "江西","value":0 },
+        {"name": "湖北","value": 1028 },
+        {"name": "广西","value":0 },
+        {"name": "甘肃","value": 2 },
+        {"name": "山西","value": 17 },
+        {"name": "内蒙古","value": 0 },
+        {"name": "陕西","value": 0 },
+        {"name": "吉林","value": 10 },
+        {"name": "福建","value": 20 },
+        {"name": "贵州","value":10 },
+        {"name": "广东","value": 19 },
+        {"name": "青海","value": 0 },
+        {"name": "西藏","value": 0 },
+        {"name": "宁夏","value": 10 },
+        {"name": "海南","value": 0 },
+        {"name": "台湾","value": 0 },
+        {"name": "香港","value": 0 },
+        {"name": "澳门","value":0 }
+	],
+	"related":{
+	"nodes":[
+        {"label":"用户体验","id":"用户体验","size":"1028"},
+{"label":"游戏","id":"游戏","size":"1028"},
+{"label":"移动互联网","id":"移动互联网","size":"2056"},
+{"label":"支付","id":"支付","size":"1028"},
+{"label":"产品设计","id":"产品设计","size":"5363"},
+{"label":"产品经理","id":"产品经理","size":"2279"},
+{"label":"产品专员","id":"产品专员","size":"223"},
+{"label":"医疗健康","id":"医疗健康","size":"223"},
+{"label":"教育","id":"教育","size":"2056"},
+{"label":"企业软件","id":"企业软件","size":"2056"},
+{"label":"用户研究","id":"用户研究","size":"1028"},
+{"label":"需求分析","id":"需求分析","size":"1028"},
+{"label":"本地生活","id":"本地生活","size":"1028"},
+{"label":"助理","id":"助理","size":"1028"},
+{"label":"金融","id":"金融","size":"1028"},
+{"label":"房产服务","id":"房产服务","size":"1028"},
+{"label":"运营","id":"运营","size":"1028"},
+{"label":"云计算","id":"云计算","size":"1028"}
+
+	],
+
+"edges":
+[
+    {
+        "sourceID" : "支付",
+        "targetID" : "产品设计",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "产品经理",
+        "targetID" : "产品设计",
+        "size" : 2279.0
+    },
+    {
+        "sourceID" : "产品设计",
+        "targetID" : "产品专员",
+        "size" : 223.0
+    },
+    {
+        "sourceID" : "产品专员",
+        "targetID" : "医疗健康",
+        "size" : 223.0
+    },
+    {
+        "sourceID" : "教育",
+        "targetID" : "教育",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "教育",
+        "targetID" : "企业软件",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "用户研究",
+        "targetID" : "需求分析",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "企业软件",
+        "targetID" : "用户研究",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "本地生活",
+        "targetID" : "企业软件",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "企业软件",
+        "targetID" : "助理",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "助理",
+        "targetID" : "产品经理",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "移动互联网",
+        "targetID" : "运营",
+        "size" : 1028.0
+    },
+    {
+        "sourceID" : "云计算",
+        "targetID" : "产品设计",
+        "size" : 1028.0
+    }
+]
+}
+}

@@ -1,0 +1,320 @@
+{
+	"geo":[
+	 	{
+	        "name" : "北京",
+	        "value" : 3381.0
+	    },
+	    {
+	        "name" : "上海",
+	        "value" : 2259.0
+	    },
+	    {
+	        "name" : "广东",
+	        "value" : 5100.0
+	    },
+	    {
+	        "name" : "四川",
+	        "value" : 10.0
+	    },
+	    {
+	        "name" : "浙江",
+	        "value" : 850.0
+	    },
+        {"name": "天津","value": 0 },
+        {"name": "重庆","value": 55 },
+        {"name": "河北","value": 23},
+        {"name": "河南","value": 20 },
+        {"name": "云南","value": 19 },
+        {"name": "辽宁","value": 20 },
+        {"name": "黑龙江","value": 25 },
+        {"name": "湖南","value":17 },
+        {"name": "安徽","value": 10},
+        {"name": "山东","value": 19 },
+        {"name": "新疆","value": 0 },
+        {"name": "江苏","value": 20 },
+        {"name": "江西","value":20 },
+        {"name": "湖北","value": 850 },
+        {"name": "广西","value":0 },
+        {"name": "甘肃","value": 2 },
+        {"name": "山西","value": 17 },
+        {"name": "内蒙古","value": 0 },
+        {"name": "陕西","value": 0 },
+        {"name": "吉林","value": 10 },
+        {"name": "福建","value": 20 },
+        {"name": "贵州","value":10 },
+        {"name": "广东","value": 19 },
+        {"name": "青海","value": 0 },
+        {"name": "西藏","value": 0 },
+        {"name": "宁夏","value": 10 },
+        {"name": "海南","value": 0 },
+        {"name": "台湾","value": 0 },
+        {"name": "香港","value": 0 },
+        {"name": "澳门","value":0 }
+	],
+	"related":{
+	"nodes":[{"label":"广告营销","id":"广告营销","size":"2531"},
+{"label":"视觉","id":"视觉","size":"4358"},
+{"label":"平面","id":"平面","size":"5950"},
+{"label":"品牌","id":"品牌","size":"958"},
+{"label":"平面设计","id":"平面设计","size":"2531"},
+{"label":"高级","id":"高级","size":"2550"},
+{"label":"专员","id":"专员","size":"1700"},
+{"label":"助理","id":"助理","size":"850"},
+{"label":"UI","id":"UI","size":"4250"},
+{"label":"交互","id":"交互","size":"2569"},
+{"label":"电商","id":"电商","size":"5081"},
+{"label":"美工","id":"美工","size":"850"},
+{"label":"摄影","id":"摄影","size":"850"},
+{"label":"flash","id":"flash","size":"850"},
+{"label":"企业服务","id":"企业服务","size":"850"},
+{"label":"画册","id":"画册","size":"850"},
+{"label":"平面广告","id":"平面广告","size":"1592"},
+{"label":"视频","id":"视频","size":"850"},
+{"label":"工业设计","id":"工业设计","size":"850"},
+{"label":"移动互联网","id":"移动互联网","size":"850"},
+{"label":"游戏","id":"游戏","size":"1700"},
+{"label":"UED","id":"UED","size":"2569"},
+{"label":"移动端","id":"移动端","size":"1789"},
+{"label":"网页","id":"网页","size":"3489"},
+{"label":"创意","id":"创意","size":"1700"},
+{"label":"艺术","id":"艺术","size":"1700"},
+{"label":"交易平台","id":"交易平台","size":"850"},
+{"label":"app","id":"app","size":"850"},
+{"label":"广告","id":"广告","size":"1700"},
+{"label":"应届生","id":"应届生","size":"850"},
+{"label":"天猫","id":"天猫","size":"850"},
+{"label":"包装","id":"包装","size":"742"},
+{"label":"网页设计","id":"网页设计","size":"831"}
+
+	],
+
+"edges":
+[
+    {
+        "sourceID" : "广告营销",
+        "targetID" : "视觉",
+        "size" : 839.0
+    },
+    {
+        "sourceID" : "视觉",
+        "targetID" : "平面",
+        "size" : 1259.0
+    },
+    {
+        "sourceID" : "品牌",
+        "targetID" : "平面设计",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "平面",
+        "targetID" : "品牌",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "高级",
+        "targetID" : "专员",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "专员",
+        "targetID" : "助理",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "UI",
+        "targetID" : "交互",
+        "size" : 1258.0
+    },
+    {
+        "sourceID" : "助理",
+        "targetID" : "UI",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "视觉",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "美工",
+        "targetID" : "摄影",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "摄影",
+        "targetID" : "flash",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "平面",
+        "targetID" : "美工",
+        "size" : 420.0
+    },
+    {
+        "sourceID" : "企业服务",
+        "targetID" : "画册",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "画册",
+        "targetID" : "平面广告",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "视频",
+        "targetID" : "电商",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "平面",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "平面设计",
+        "targetID" : "工业设计",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "平面",
+        "targetID" : "平面设计",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "移动互联网",
+        "targetID" : "游戏",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "游戏",
+        "targetID" : "UI",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "交互",
+        "targetID" : "UED",
+        "size" : 838.0
+    },
+    {
+        "sourceID" : "高级",
+        "targetID" : "移动端",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "移动端",
+        "targetID" : "平面",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "网页",
+        "targetID" : "创意",
+        "size" : 838.0
+    },
+    {
+        "sourceID" : "平面",
+        "targetID" : "网页",
+        "size" : 1257.0
+    },
+    {
+        "sourceID" : "游戏",
+        "targetID" : "高级",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "高级",
+        "targetID" : "视觉",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "视觉",
+        "targetID" : "UI",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "艺术",
+        "size" : 838.0
+    },
+    {
+        "sourceID" : "艺术",
+        "targetID" : "UI",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "视觉",
+        "targetID" : "UED",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "UED",
+        "targetID" : "交易平台",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "UI",
+        "targetID" : "视觉",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "app",
+        "targetID" : "UI",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "电商",
+        "targetID" : "广告营销",
+        "size" : 838.0
+    },
+    {
+        "sourceID" : "专员",
+        "targetID" : "广告",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "广告",
+        "targetID" : "平面",
+        "size" : 838.0
+    },
+    {
+        "sourceID" : "艺术",
+        "targetID" : "应届生",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "应届生",
+        "targetID" : "天猫",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "平面",
+        "targetID" : "包装",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "包装",
+        "targetID" : "平面广告",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "广告营销",
+        "targetID" : "移动端",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "网页",
+        "targetID" : "平面设计",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "平面设计",
+        "targetID" : "网页设计",
+        "size" : 419.0
+    },
+    {
+        "sourceID" : "移动端",
+        "targetID" : "网页",
+        "size" : 419.0
+    }
+]
+}
+}
